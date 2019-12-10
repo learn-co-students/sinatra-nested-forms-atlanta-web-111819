@@ -1,7 +1,16 @@
 <h1>Display your Pirate here</h1>
+<h2>Pirate Name: <%= @pirate_data[:name] %></h2>
+<h2>Pirate Weight: <%= @pirate_data[:weight] %></h2>
+<h2>Pirate Height: <%= @pirate_data[:height]%></h2>
 
 
 <h2>Display your first ship here</h2>
+<h3>First pirate ship name: <%= @pirate_data[:ships][0][:name]%></h3>
+<h3>First pirate ship type: <%= @pirate_data[:ships][0][:type]%></h3>
+<h3>First pirate ship booty: <%= @pirate_data[:ships][0][:booty]%></h3>
 
 
 <h2>Display your second ship here</h2>
+<h3>Second pirate ship name: <%= @pirate_data[:ships][1][:name]%></h3>
+<h3>Second pirate ship type: <%= @pirate_data[:ships][1][:type]%></h3>
+<h3>Second pirate ship booty: <%= @pirate_data[:ships][1][:booty]%></h3>
